@@ -1,0 +1,9 @@
+This folder contains CMUSphinx US English generic acoustic model, the
+most accurate model available for now. The model is provided in several
+variations, the continuous models (without -ptm in name) are for server
+environment and provide best accuracy though a bit large in size. PTM
+models are for mobile and resource-constrained environment. They are
+best to balance between speed and accuracy.
+
+To use this model for large vocabulary speech recognition download also
+CMUDict and US English generic language model.

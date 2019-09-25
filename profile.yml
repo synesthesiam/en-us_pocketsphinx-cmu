@@ -1,0 +1,7 @@
+language:
+  name: "english"
+  code: "en-us"
+
+text-to-speech:
+  espeak:
+    voice: "en-us"
