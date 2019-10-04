@@ -6,9 +6,12 @@ text-to-speech:
   espeak:
     voice: "en-us"
 
+speech-to-text:
+  acoustic-model-type: "pocketsphinx"
+
 training:
   acoustic-model-type: "pocketsphinx"
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
-    - !env "${profile_dir}/language_model.txt"
+    - !env "${profile_dir}/base_language_model.txt"
     - !env "${profile_dir}/g2p.fst"
