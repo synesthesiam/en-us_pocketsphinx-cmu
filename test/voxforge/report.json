@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.8349514563106796,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 2.4566940955949064
   },
   "actual": {
     "en-0539.wav": {
       "text": "the farm and inception document this week for signature",
-      "transcribe_seconds": 2.0072245597839355,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00031375885009765625,
+      "transcribe_seconds": 2.0119354724884033,
       "wav_seconds": 5.5,
       "likelihood": 1.1886414335254567e-05,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "ar-04.wav": {
       "text": "he would always shirt making a choice his aunt helen said to him",
-      "transcribe_seconds": 2.7372474670410156,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020647048950195312,
+      "transcribe_seconds": 2.7228050231933594,
       "wav_seconds": 5.875,
       "likelihood": 1.6413534662915593e-09,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "en-0541.wav": {
       "text": "nevertheless indicated she might be inching toward some controls",
-      "transcribe_seconds": 2.9732866287231445,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.5033950805664062e-05,
+      "transcribe_seconds": 3.0081207752227783,
       "wav_seconds": 5.875,
       "likelihood": 1.244896944552263e-07,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "ar-07.wav": {
       "text": "one rainy day the rats heard a great noise in the loft",
-      "transcribe_seconds": 1.7983155250549316,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00021195411682128906,
+      "transcribe_seconds": 1.766237497329712,
       "wav_seconds": 5.375,
       "likelihood": 0.006978121647370576,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "ar-06.wav": {
       "text": "you have no more minded and avoid abreast",
-      "transcribe_seconds": 1.1247425079345703,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.4080276489257812e-05,
+      "transcribe_seconds": 1.1379859447479248,
       "wav_seconds": 4.5,
       "likelihood": 0.00810188769555054,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "en-0535.wav": {
       "text": "so that he is in with children from a variety of cod two of backgrounds",
-      "transcribe_seconds": 3.1673457622528076,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020647048950195312,
+      "transcribe_seconds": 3.1677610874176025,
       "wav_seconds": 6,
       "likelihood": 1.8811141090397368e-05,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "en-0532.wav": {
       "text": "this will be discussed with industry",
-      "transcribe_seconds": 2.4865670204162598,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.3603439331054688e-05,
+      "transcribe_seconds": 2.5137710571289062,
       "wav_seconds": 4.625,
       "likelihood": 0.00021726828081322858,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "rp-29.wav": {
       "text": "since red and green light when mixed form yellow",
-      "transcribe_seconds": 1.7313380241394043,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002052783966064453,
+      "transcribe_seconds": 1.7395079135894775,
       "wav_seconds": 5.125,
       "likelihood": 2.802495921457613e-05,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "en-0536.wav": {
       "text": "attach please find its fact she",
-      "transcribe_seconds": 1.7721161842346191,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.4080276489257812e-05,
+      "transcribe_seconds": 1.7653043270111084,
       "wav_seconds": 4,
       "likelihood": 3.973261411380966e-07,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "rp-31.wav": {
       "text": "with little or no green or blue",
-      "transcribe_seconds": 1.4405338764190674,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020694732666015625,
+      "transcribe_seconds": 1.4349398612976074,
       "wav_seconds": 4.125,
       "likelihood": 0.01667283478863299,
       "word_error": {
@@ -144,7 +226,15 @@
     },
     "rp-30.wav": {
       "text": "this is a very common type of bowl one join mainly red and yellow",
-      "transcribe_seconds": 2.3111584186553955,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020647048950195312,
+      "transcribe_seconds": 2.312387228012085,
       "wav_seconds": 6.375,
       "likelihood": 1.2770073265416688e-05,
       "word_error": {
@@ -157,7 +247,15 @@
     },
     "en-0533.wav": {
       "text": "who is serious of informant outrage sessions over the next few months",
-      "transcribe_seconds": 3.342435836791992,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020813941955566406,
+      "transcribe_seconds": 3.3550829887390137,
       "wav_seconds": 6.875,
       "likelihood": 4.878369570687402e-07,
       "word_error": {
@@ -170,7 +268,15 @@
     },
     "en-0534.wav": {
       "text": "here the costs autos the map measuring",
-      "transcribe_seconds": 1.7237446308135986,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002048015594482422,
+      "transcribe_seconds": 1.7484521865844727,
       "wav_seconds": 4.25,
       "likelihood": 3.5976316723650646e-07,
       "word_error": {
@@ -183,7 +289,15 @@
     },
     "en-0540.wav": {
       "text": "the commission and who has not come out in favor of ice caps",
-      "transcribe_seconds": 3.594632863998413,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020766258239746094,
+      "transcribe_seconds": 3.4522149562835693,
       "wav_seconds": 5.5,
       "likelihood": 1.8275883478846653e-07,
       "word_error": {
@@ -196,7 +310,15 @@
     },
     "ar-05.wav": {
       "text": "now look here no one is going to care for you if you carry on like this",
-      "transcribe_seconds": 2.385097026824951,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002086162567138672,
+      "transcribe_seconds": 2.393052577972412,
       "wav_seconds": 6.625,
       "likelihood": 0.00019814958598857434,
       "word_error": {
@@ -209,7 +331,15 @@
     },
     "en-0537.wav": {
       "text": "contending be about food for reference information",
-      "transcribe_seconds": 1.9621803760528564,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.384185791015625e-05,
+      "transcribe_seconds": 1.9673149585723877,
       "wav_seconds": 4.625,
       "likelihood": 0.0010840065363551153,
       "word_error": {
@@ -222,7 +352,15 @@
     },
     "ar-02.wav": {
       "text": "whenever his friends asked him if he would like to go all with them",
-      "transcribe_seconds": 2.5566306114196777,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002028942108154297,
+      "transcribe_seconds": 2.5894217491149902,
       "wav_seconds": 5.375,
       "likelihood": 6.230902777330348e-06,
       "word_error": {
@@ -235,7 +373,15 @@
     },
     "ar-03.wav": {
       "text": "he would only answer i don't know he wouldn't say yes or no either",
-      "transcribe_seconds": 2.3562662601470947,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.574920654296875e-05,
+      "transcribe_seconds": 2.3667168617248535,
       "wav_seconds": 6.5,
       "likelihood": 0.00021275270303580402,
       "word_error": {
@@ -248,7 +394,15 @@
     },
     "en-0538.wav": {
       "text": "she's going to pull it together",
-      "transcribe_seconds": 1.5894684791564941,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00021958351135253906,
+      "transcribe_seconds": 1.4650170803070068,
       "wav_seconds": 3.5,
       "likelihood": 2.6899044369124265e-05,
       "word_error": {
@@ -261,7 +415,15 @@
     },
     "ar-01.wav": {
       "text": "once there was the young rat named arthur who never could make up his mind",
-      "transcribe_seconds": 3.0281190872192383,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002574920654296875,
+      "transcribe_seconds": 2.704880714416504,
       "wav_seconds": 6.25,
       "likelihood": 0.00014538513716319567,
       "word_error": {
