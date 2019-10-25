@@ -5,6 +5,8 @@ language:
 text-to-speech:
   espeak:
     voice: "en-us"
+  marytts:
+    voice: "cmu-slt-hsmm"
 
 speech-to-text:
   acoustic-model-type: "pocketsphinx"
