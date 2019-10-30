@@ -1,40 +1,39 @@
-# Phoneme Word Pronunciation
-AA odd AA D
-AE at AE T
-AH hut HH AH T
-AO ought AO T
-AW cow K AW
-AY hide HH AY D
-B be B IY
-CH cheese CH IY Z
-D dee D IY
+AA body B AA D IY
+AE adam AE D AH M
+AH able EY B AH L
+AO also AO L S OW
+AW down D AW N
+AY bike B AY K
+B babe B EY B
+CH each IY CH
+D andy AE N D IY
 DH thee DH IY
-EH Ed EH D
-ER hurt HH ER T
-EY ate EY T
-F fee F IY
-G green G R IY N
-HH he HH IY
-IH it IH T
-IY eat IY T
-JH gee JH IY
-K key K IY
-L lee L IY
-M me M IY
-N knee N IY
-NG ping P IH NG
-OW oat OW T
-OY toy T OY
-P pee P IY
-R read R IY D
-S sea S IY
-SH she SH IY
-T tea T IY
-TH theta TH EY T AH
-UH hood HH UH D
-UW two T UW
-V vee V IY
-W we W IY
-Y yield Y IY L D
-Z zee Z IY
-ZH seizure S IY ZH ER
+EH bear B EH R
+ER bird B ER D
+EY away AH W EY
+F face F EY S
+G bags B AE G Z
+HH hair HH EH R
+IH beer B IH R
+IY area EH R IY AH
+JH edge EH JH
+K back B AE K
+L alex AE L AH K S
+M army AA R M IY
+N alan AE L AH N
+NG bang B AE NG
+OW blow B L OW
+OY boys B OY Z
+P camp K AE M P
+R aren AA R AH N
+S asks AE S K S
+SH bush B UH SH
+T arts AA R T S
+TH bath B AE TH
+UH book B UH K
+UW blue B L UW
+V dave D EY V
+W once W AH N S
+Y cute K Y UW T
+Z arms AA R M Z
+ZH vision V IH ZH AH N
