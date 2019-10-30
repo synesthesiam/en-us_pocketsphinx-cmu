@@ -1,6 +1,6 @@
 AA 0
 AE a
-AH V
+AH @
 AO O:
 AW aU
 AY aI
@@ -9,7 +9,7 @@ CH tS
 D d
 DH D
 EH E
-ER 3:
+ER 3
 EY eI
 F f
 G g
@@ -31,7 +31,7 @@ SH S
 T t
 TH T
 UH U
-UW u
+UW u:
 V v
 W w
 Y j
