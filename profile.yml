@@ -13,6 +13,7 @@ speech-to-text:
 
 training:
   acoustic-model-type: "pocketsphinx"
+  word-casing: "lower"
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
     - !env "${profile_dir}/base_language_model.txt"
