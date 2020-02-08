@@ -7,6 +7,7 @@ text-to-speech:
     voice: "en-us"
   marytts:
     voice: "cmu-slt-hsmm"
+    dictionary-file: !env "${profile_dir}/marytts/user-dictionaries/userdict-en_US.txt"
 
 speech-to-text:
   acoustic-model-type: "pocketsphinx"
