@@ -1,500 +1,1589 @@
 {
-  "statistics": {
-    "num_wavs": 20,
-    "num_words": 206,
-    "num_entities": 0,
-    "correct_transcriptions": 7,
-    "correct_intent_names": 0,
-    "correct_words": 172,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.8349514563106796,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 2.4566940955949064
+  "expected": {
+    "ar-01.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "once there was a young rat named arthur who never could make up his mind",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "rp-31.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "with little or no green or blue",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0535.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "so that he is in with children from a variety of cultural backgrounds",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-04.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "he would always shirk making a choice his aunt helen said to him",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0533.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "through a series of informal outreach sessions over the next few months",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-06.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "you have no more mind than a blade of grass",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0538.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "please could we pull together",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0541.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "nevertheless indicated she might be inching toward some controls",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0537.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "containing the above referenced information",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-02.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "whenever his friends asked him if he would like to go out with them",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0534.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "here the classes are total immersion",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "rp-30.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "this is a very common type of bow one showing mainly red and yellow",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-03.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "he would only answer i don't know he wouldn't say yes or no either",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0539.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "the format inception document this week for signature",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "rp-29.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "since red and green light when mixed form yellow",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-07.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "one rainy day the rats heard a great noise in the loft",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0532.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "this will be discussed with industry",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0540.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "the commissioner who has not come out in favor of price caps",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ar-05.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "now look here no one is going to care for you if you carry on like this",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "en-0536.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "attached please find the spreadsheet",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
-    "en-0539.wav": {
-      "text": "the farm and inception document this week for signature",
+    "ar-01.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00031375885009765625,
-      "transcribe_seconds": 2.0119354724884033,
-      "wav_seconds": 5.5,
-      "likelihood": 1.1886414335254567e-05,
+      "text": "once there was the young rat named arthur who never could make up his mind",
+      "raw_text": "once there was the young rat named arthur who never could make up his mind",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.25,
+      "transcribe_seconds": 6.970101189000161,
+      "speech_confidence": null,
+      "wav_name": "ar-01.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "the ***  FORMAT inception document this week for signature",
-        "actual": "the FARM AND    inception document this week for signature",
-        "words": 8,
-        "correct": 7,
-        "errors": 2
-      }
-    },
-    "ar-04.wav": {
-      "text": "he would always shirt making a choice his aunt helen said to him",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020647048950195312,
-      "transcribe_seconds": 2.7228050231933594,
-      "wav_seconds": 5.875,
-      "likelihood": 1.6413534662915593e-09,
-      "word_error": {
-        "expected": "he  would always SHIRK making a   choice his aunt helen said to  him",
-        "actual": "he  would always SHIRT making a   choice his aunt helen said to  him",
-        "words": 13,
-        "correct": 12,
-        "errors": 1
-      }
-    },
-    "en-0541.wav": {
-      "text": "nevertheless indicated she might be inching toward some controls",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.5033950805664062e-05,
-      "transcribe_seconds": 3.0081207752227783,
-      "wav_seconds": 5.875,
-      "likelihood": 1.244896944552263e-07,
-      "word_error": {
-        "expected": "nevertheless indicated she might be  inching toward some controls",
-        "actual": "nevertheless indicated she might be  inching toward some controls",
-        "words": 9,
-        "correct": 9,
-        "errors": 0
-      }
-    },
-    "ar-07.wav": {
-      "text": "one rainy day the rats heard a great noise in the loft",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00021195411682128906,
-      "transcribe_seconds": 1.766237497329712,
-      "wav_seconds": 5.375,
-      "likelihood": 0.006978121647370576,
-      "word_error": {
-        "expected": "one rainy day the rats heard a   great noise in  the loft",
-        "actual": "one rainy day the rats heard a   great noise in  the loft",
-        "words": 12,
-        "correct": 12,
-        "errors": 0
-      }
-    },
-    "ar-06.wav": {
-      "text": "you have no more minded and avoid abreast",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.4080276489257812e-05,
-      "transcribe_seconds": 1.1379859447479248,
-      "wav_seconds": 4.5,
-      "likelihood": 0.00810188769555054,
-      "word_error": {
-        "expected": "you have no  more MIND THAN A      BLADE OF    GRASS",
-        "actual": "you have no  more ***  ***  MINDED AND   AVOID ABREAST",
-        "words": 10,
-        "correct": 4,
-        "errors": 6
-      }
-    },
-    "en-0535.wav": {
-      "text": "so that he is in with children from a variety of cod two of backgrounds",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020647048950195312,
-      "transcribe_seconds": 3.1677610874176025,
-      "wav_seconds": 6,
-      "likelihood": 1.8811141090397368e-05,
-      "word_error": {
-        "expected": "so  that he  is  in  with children from a   variety of  *** *** CULTURAL backgrounds",
-        "actual": "so  that he  is  in  with children from a   variety of  COD TWO OF       backgrounds",
-        "words": 13,
-        "correct": 12,
-        "errors": 3
-      }
-    },
-    "en-0532.wav": {
-      "text": "this will be discussed with industry",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.3603439331054688e-05,
-      "transcribe_seconds": 2.5137710571289062,
-      "wav_seconds": 4.625,
-      "likelihood": 0.00021726828081322858,
-      "word_error": {
-        "expected": "this will be  discussed with industry",
-        "actual": "this will be  discussed with industry",
-        "words": 6,
-        "correct": 6,
-        "errors": 0
-      }
-    },
-    "rp-29.wav": {
-      "text": "since red and green light when mixed form yellow",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002052783966064453,
-      "transcribe_seconds": 1.7395079135894775,
-      "wav_seconds": 5.125,
-      "likelihood": 2.802495921457613e-05,
-      "word_error": {
-        "expected": "since red and green light when mixed form yellow",
-        "actual": "since red and green light when mixed form yellow",
-        "words": 9,
-        "correct": 9,
-        "errors": 0
-      }
-    },
-    "en-0536.wav": {
-      "text": "attach please find its fact she",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.4080276489257812e-05,
-      "transcribe_seconds": 1.7653043270111084,
-      "wav_seconds": 4,
-      "likelihood": 3.973261411380966e-07,
-      "word_error": {
-        "expected": "ATTACHED please find *** THE  SPREADSHEET",
-        "actual": "ATTACH   please find ITS FACT SHE",
-        "words": 5,
-        "correct": 2,
-        "errors": 4
+        "reference": [
+          "once",
+          "there",
+          "was",
+          "a",
+          "young",
+          "rat",
+          "named",
+          "arthur",
+          "who",
+          "never",
+          "could",
+          "make",
+          "up",
+          "his",
+          "mind"
+        ],
+        "hypothesis": [
+          "once",
+          "there",
+          "was",
+          "the",
+          "young",
+          "rat",
+          "named",
+          "arthur",
+          "who",
+          "never",
+          "could",
+          "make",
+          "up",
+          "his",
+          "mind"
+        ],
+        "differences": [
+          "once",
+          "there",
+          "was",
+          "a:the",
+          "young",
+          "rat",
+          "named",
+          "arthur",
+          "who",
+          "never",
+          "could",
+          "make",
+          "up",
+          "his",
+          "mind"
+        ],
+        "words": 15,
+        "errors": 1,
+        "matches": 14,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.06666666666666667
       }
     },
     "rp-31.wav": {
-      "text": "with little or no green or blue",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020694732666015625,
-      "transcribe_seconds": 1.4349398612976074,
+      "text": "with little or no green or blue",
+      "raw_text": "with little or no green or blue",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 4.125,
-      "likelihood": 0.01667283478863299,
+      "transcribe_seconds": 3.988593721000143,
+      "speech_confidence": null,
+      "wav_name": "rp-31.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "with little or  no  green or  blue",
-        "actual": "with little or  no  green or  blue",
+        "reference": [
+          "with",
+          "little",
+          "or",
+          "no",
+          "green",
+          "or",
+          "blue"
+        ],
+        "hypothesis": [
+          "with",
+          "little",
+          "or",
+          "no",
+          "green",
+          "or",
+          "blue"
+        ],
+        "differences": [
+          "with",
+          "little",
+          "or",
+          "no",
+          "green",
+          "or",
+          "blue"
+        ],
         "words": 7,
-        "correct": 7,
-        "errors": 0
+        "errors": 0,
+        "matches": 7,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "rp-30.wav": {
-      "text": "this is a very common type of bowl one join mainly red and yellow",
+    "en-0535.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020647048950195312,
-      "transcribe_seconds": 2.312387228012085,
-      "wav_seconds": 6.375,
-      "likelihood": 1.2770073265416688e-05,
+      "text": "so that he is in with children from a variety of cod two of backgrounds",
+      "raw_text": "so that he is in with children from a variety of cod two of backgrounds",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6,
+      "transcribe_seconds": 8.500283137000224,
+      "speech_confidence": null,
+      "wav_name": "en-0535.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "this is  a   very common type of  BOW  one SHOWING mainly red and yellow",
-        "actual": "this is  a   very common type of  BOWL one JOIN    mainly red and yellow",
-        "words": 14,
-        "correct": 12,
-        "errors": 2
+        "reference": [
+          "so",
+          "that",
+          "he",
+          "is",
+          "in",
+          "with",
+          "children",
+          "from",
+          "a",
+          "variety",
+          "of",
+          "cultural",
+          "backgrounds"
+        ],
+        "hypothesis": [
+          "so",
+          "that",
+          "he",
+          "is",
+          "in",
+          "with",
+          "children",
+          "from",
+          "a",
+          "variety",
+          "of",
+          "cod",
+          "two",
+          "of",
+          "backgrounds"
+        ],
+        "differences": [
+          "so",
+          "that",
+          "he",
+          "is",
+          "in",
+          "with",
+          "children",
+          "from",
+          "a",
+          "variety",
+          "of",
+          "+cod",
+          "+two",
+          "cultural:of",
+          "backgrounds"
+        ],
+        "words": 13,
+        "errors": 3,
+        "matches": 12,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 2,
+        "error_rate": 0.23076923076923078
+      }
+    },
+    "ar-04.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "he would always shirt making a choice his aunt helen said to him",
+      "raw_text": "he would always shirt making a choice his aunt helen said to him",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.875,
+      "transcribe_seconds": 7.011875294999754,
+      "speech_confidence": null,
+      "wav_name": "ar-04.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "he",
+          "would",
+          "always",
+          "shirk",
+          "making",
+          "a",
+          "choice",
+          "his",
+          "aunt",
+          "helen",
+          "said",
+          "to",
+          "him"
+        ],
+        "hypothesis": [
+          "he",
+          "would",
+          "always",
+          "shirt",
+          "making",
+          "a",
+          "choice",
+          "his",
+          "aunt",
+          "helen",
+          "said",
+          "to",
+          "him"
+        ],
+        "differences": [
+          "he",
+          "would",
+          "always",
+          "shirk:shirt",
+          "making",
+          "a",
+          "choice",
+          "his",
+          "aunt",
+          "helen",
+          "said",
+          "to",
+          "him"
+        ],
+        "words": 13,
+        "errors": 1,
+        "matches": 12,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.07692307692307693
       }
     },
     "en-0533.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "who is serious of informant outrage sessions over the next few months",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020813941955566406,
-      "transcribe_seconds": 3.3550829887390137,
+      "raw_text": "who is serious of informant outrage sessions over the next few months",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6.875,
-      "likelihood": 4.878369570687402e-07,
+      "transcribe_seconds": 8.876489785000103,
+      "speech_confidence": null,
+      "wav_name": "en-0533.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "THROUGH A   SERIES  of  INFORMAL  OUTREACH sessions over the next few months",
-        "actual": "WHO     IS  SERIOUS of  INFORMANT OUTRAGE  sessions over the next few months",
+        "reference": [
+          "through",
+          "a",
+          "series",
+          "of",
+          "informal",
+          "outreach",
+          "sessions",
+          "over",
+          "the",
+          "next",
+          "few",
+          "months"
+        ],
+        "hypothesis": [
+          "who",
+          "is",
+          "serious",
+          "of",
+          "informant",
+          "outrage",
+          "sessions",
+          "over",
+          "the",
+          "next",
+          "few",
+          "months"
+        ],
+        "differences": [
+          "through:who",
+          "a:is",
+          "series:serious",
+          "of",
+          "informal:informant",
+          "outreach:outrage",
+          "sessions",
+          "over",
+          "the",
+          "next",
+          "few",
+          "months"
+        ],
         "words": 12,
-        "correct": 7,
-        "errors": 5
+        "errors": 5,
+        "matches": 7,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.4166666666666667
       }
     },
-    "en-0534.wav": {
-      "text": "here the costs autos the map measuring",
+    "ar-06.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002048015594482422,
-      "transcribe_seconds": 1.7484521865844727,
-      "wav_seconds": 4.25,
-      "likelihood": 3.5976316723650646e-07,
+      "text": "you have no more minded and avoid abreast",
+      "raw_text": "you have no more minded and avoid abreast",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.5,
+      "transcribe_seconds": 3.514285364999978,
+      "speech_confidence": null,
+      "wav_name": "ar-06.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "here the ***   CLASSES ARE TOTAL IMMERSION",
-        "actual": "here the COSTS AUTOS   THE MAP   MEASURING",
-        "words": 6,
-        "correct": 2,
-        "errors": 5
-      }
-    },
-    "en-0540.wav": {
-      "text": "the commission and who has not come out in favor of ice caps",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020766258239746094,
-      "transcribe_seconds": 3.4522149562835693,
-      "wav_seconds": 5.5,
-      "likelihood": 1.8275883478846653e-07,
-      "word_error": {
-        "expected": "the ***        COMMISSIONER who has not come out in  favor of  PRICE caps",
-        "actual": "the COMMISSION AND          who has not come out in  favor of  ICE   caps",
-        "words": 12,
-        "correct": 10,
-        "errors": 3
-      }
-    },
-    "ar-05.wav": {
-      "text": "now look here no one is going to care for you if you carry on like this",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002086162567138672,
-      "transcribe_seconds": 2.393052577972412,
-      "wav_seconds": 6.625,
-      "likelihood": 0.00019814958598857434,
-      "word_error": {
-        "expected": "now look here no  one is  going to  care for you if  you carry on  like this",
-        "actual": "now look here no  one is  going to  care for you if  you carry on  like this",
-        "words": 17,
-        "correct": 17,
-        "errors": 0
-      }
-    },
-    "en-0537.wav": {
-      "text": "contending be about food for reference information",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.384185791015625e-05,
-      "transcribe_seconds": 1.9673149585723877,
-      "wav_seconds": 4.625,
-      "likelihood": 0.0010840065363551153,
-      "word_error": {
-        "expected": "***        *** CONTAINING THE  ABOVE REFERENCED information",
-        "actual": "CONTENDING BE  ABOUT      FOOD FOR   REFERENCE  information",
-        "words": 5,
-        "correct": 1,
-        "errors": 6
-      }
-    },
-    "ar-02.wav": {
-      "text": "whenever his friends asked him if he would like to go all with them",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002028942108154297,
-      "transcribe_seconds": 2.5894217491149902,
-      "wav_seconds": 5.375,
-      "likelihood": 6.230902777330348e-06,
-      "word_error": {
-        "expected": "whenever his friends asked him if  he  would like to  go  OUT with them",
-        "actual": "whenever his friends asked him if  he  would like to  go  ALL with them",
-        "words": 14,
-        "correct": 13,
-        "errors": 1
-      }
-    },
-    "ar-03.wav": {
-      "text": "he would only answer i don't know he wouldn't say yes or no either",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.574920654296875e-05,
-      "transcribe_seconds": 2.3667168617248535,
-      "wav_seconds": 6.5,
-      "likelihood": 0.00021275270303580402,
-      "word_error": {
-        "expected": "he  would only answer i   don't know he  wouldn't say yes or  no  either",
-        "actual": "he  would only answer i   don't know he  wouldn't say yes or  no  either",
-        "words": 14,
-        "correct": 14,
-        "errors": 0
+        "reference": [
+          "you",
+          "have",
+          "no",
+          "more",
+          "mind",
+          "than",
+          "a",
+          "blade",
+          "of",
+          "grass"
+        ],
+        "hypothesis": [
+          "you",
+          "have",
+          "no",
+          "more",
+          "minded",
+          "and",
+          "avoid",
+          "abreast"
+        ],
+        "differences": [
+          "you",
+          "have",
+          "no",
+          "more",
+          "-mind",
+          "-than",
+          "a:minded",
+          "blade:and",
+          "of:avoid",
+          "grass:abreast"
+        ],
+        "words": 10,
+        "errors": 6,
+        "matches": 4,
+        "substitutions": 4,
+        "deletions": 2,
+        "insertions": 0,
+        "error_rate": 0.6
       }
     },
     "en-0538.wav": {
-      "text": "she's going to pull it together",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00021958351135253906,
-      "transcribe_seconds": 1.4650170803070068,
+      "text": "the school report to gather",
+      "raw_text": "the school report to gather",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 3.5,
-      "likelihood": 2.6899044369124265e-05,
+      "transcribe_seconds": 3.9979841759995907,
+      "speech_confidence": null,
+      "wav_name": "en-0538.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "PLEASE COULD WE  pull *** together",
-        "actual": "SHE'S  GOING TO  pull IT  together",
+        "reference": [
+          "please",
+          "could",
+          "we",
+          "pull",
+          "together"
+        ],
+        "hypothesis": [
+          "the",
+          "school",
+          "report",
+          "to",
+          "gather"
+        ],
+        "differences": [
+          "please:the",
+          "could:school",
+          "we:report",
+          "pull:to",
+          "together:gather"
+        ],
         "words": 5,
-        "correct": 2,
-        "errors": 4
+        "errors": 5,
+        "matches": 0,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
       }
     },
-    "ar-01.wav": {
-      "text": "once there was the young rat named arthur who never could make up his mind",
+    "en-0541.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002574920654296875,
-      "transcribe_seconds": 2.704880714416504,
-      "wav_seconds": 6.25,
-      "likelihood": 0.00014538513716319567,
+      "text": "nevertheless indicated she might be inching towards some controls",
+      "raw_text": "nevertheless indicated she might be inching towards some controls",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.875,
+      "transcribe_seconds": 8.21331839000004,
+      "speech_confidence": null,
+      "wav_name": "en-0541.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "once there was A   young rat named arthur who never could make up  his mind",
-        "actual": "once there was THE young rat named arthur who never could make up  his mind",
-        "words": 15,
-        "correct": 14,
-        "errors": 1
+        "reference": [
+          "nevertheless",
+          "indicated",
+          "she",
+          "might",
+          "be",
+          "inching",
+          "toward",
+          "some",
+          "controls"
+        ],
+        "hypothesis": [
+          "nevertheless",
+          "indicated",
+          "she",
+          "might",
+          "be",
+          "inching",
+          "towards",
+          "some",
+          "controls"
+        ],
+        "differences": [
+          "nevertheless",
+          "indicated",
+          "she",
+          "might",
+          "be",
+          "inching",
+          "toward:towards",
+          "some",
+          "controls"
+        ],
+        "words": 9,
+        "errors": 1,
+        "matches": 8,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.1111111111111111
+      }
+    },
+    "en-0537.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "contending be about food for reference information",
+      "raw_text": "contending be about food for reference information",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.625,
+      "transcribe_seconds": 5.488641090999863,
+      "speech_confidence": null,
+      "wav_name": "en-0537.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "containing",
+          "the",
+          "above",
+          "referenced",
+          "information"
+        ],
+        "hypothesis": [
+          "contending",
+          "be",
+          "about",
+          "food",
+          "for",
+          "reference",
+          "information"
+        ],
+        "differences": [
+          "containing:about",
+          "the:food",
+          "above:for",
+          "referenced:reference",
+          "information"
+        ],
+        "words": 5,
+        "errors": 6,
+        "matches": 1,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8
+      }
+    },
+    "ar-02.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "whenever his friends asked him if he would like to go all with them",
+      "raw_text": "whenever his friends asked him if he would like to go all with them",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.375,
+      "transcribe_seconds": 6.733193186000335,
+      "speech_confidence": null,
+      "wav_name": "ar-02.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "whenever",
+          "his",
+          "friends",
+          "asked",
+          "him",
+          "if",
+          "he",
+          "would",
+          "like",
+          "to",
+          "go",
+          "out",
+          "with",
+          "them"
+        ],
+        "hypothesis": [
+          "whenever",
+          "his",
+          "friends",
+          "asked",
+          "him",
+          "if",
+          "he",
+          "would",
+          "like",
+          "to",
+          "go",
+          "all",
+          "with",
+          "them"
+        ],
+        "differences": [
+          "whenever",
+          "his",
+          "friends",
+          "asked",
+          "him",
+          "if",
+          "he",
+          "would",
+          "like",
+          "to",
+          "go",
+          "out:all",
+          "with",
+          "them"
+        ],
+        "words": 14,
+        "errors": 1,
+        "matches": 13,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.07142857142857142
+      }
+    },
+    "en-0534.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "you that crosses autos the map measuring",
+      "raw_text": "you that crosses autos the map measuring",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.25,
+      "transcribe_seconds": 4.98967190600024,
+      "speech_confidence": null,
+      "wav_name": "en-0534.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "here",
+          "the",
+          "classes",
+          "are",
+          "total",
+          "immersion"
+        ],
+        "hypothesis": [
+          "you",
+          "that",
+          "crosses",
+          "autos",
+          "the",
+          "map",
+          "measuring"
+        ],
+        "differences": [
+          "here:that",
+          "the:crosses",
+          "classes:autos",
+          "are:the",
+          "total:map",
+          "immersion:measuring"
+        ],
+        "words": 6,
+        "errors": 7,
+        "matches": 0,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
+      }
+    },
+    "rp-30.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "this is a very common type of bowl one join mainly red and yellow",
+      "raw_text": "this is a very common type of bowl one join mainly red and yellow",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.375,
+      "transcribe_seconds": 7.942937685999823,
+      "speech_confidence": null,
+      "wav_name": "rp-30.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "this",
+          "is",
+          "a",
+          "very",
+          "common",
+          "type",
+          "of",
+          "bow",
+          "one",
+          "showing",
+          "mainly",
+          "red",
+          "and",
+          "yellow"
+        ],
+        "hypothesis": [
+          "this",
+          "is",
+          "a",
+          "very",
+          "common",
+          "type",
+          "of",
+          "bowl",
+          "one",
+          "join",
+          "mainly",
+          "red",
+          "and",
+          "yellow"
+        ],
+        "differences": [
+          "this",
+          "is",
+          "a",
+          "very",
+          "common",
+          "type",
+          "of",
+          "bow:bowl",
+          "one",
+          "showing:join",
+          "mainly",
+          "red",
+          "and",
+          "yellow"
+        ],
+        "words": 14,
+        "errors": 2,
+        "matches": 12,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.14285714285714285
+      }
+    },
+    "ar-03.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "he would only answer i don't know he wouldn't say yes or no either",
+      "raw_text": "he would only answer i don't know he wouldn't say yes or no either",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.5,
+      "transcribe_seconds": 4.267558918000304,
+      "speech_confidence": null,
+      "wav_name": "ar-03.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "he",
+          "would",
+          "only",
+          "answer",
+          "i",
+          "don't",
+          "know",
+          "he",
+          "wouldn't",
+          "say",
+          "yes",
+          "or",
+          "no",
+          "either"
+        ],
+        "hypothesis": [
+          "he",
+          "would",
+          "only",
+          "answer",
+          "i",
+          "don't",
+          "know",
+          "he",
+          "wouldn't",
+          "say",
+          "yes",
+          "or",
+          "no",
+          "either"
+        ],
+        "differences": [
+          "he",
+          "would",
+          "only",
+          "answer",
+          "i",
+          "don't",
+          "know",
+          "he",
+          "wouldn't",
+          "say",
+          "yes",
+          "or",
+          "no",
+          "either"
+        ],
+        "words": 14,
+        "errors": 0,
+        "matches": 14,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "en-0539.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "the farm and inception document this week for signature",
+      "raw_text": "the farm and inception document this week for signature",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.5,
+      "transcribe_seconds": 3.085527051000099,
+      "speech_confidence": null,
+      "wav_name": "en-0539.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "the",
+          "format",
+          "inception",
+          "document",
+          "this",
+          "week",
+          "for",
+          "signature"
+        ],
+        "hypothesis": [
+          "the",
+          "farm",
+          "and",
+          "inception",
+          "document",
+          "this",
+          "week",
+          "for",
+          "signature"
+        ],
+        "differences": [
+          "the",
+          "+farm",
+          "format:and",
+          "inception",
+          "document",
+          "this",
+          "week",
+          "for",
+          "signature"
+        ],
+        "words": 8,
+        "errors": 2,
+        "matches": 7,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.25
+      }
+    },
+    "rp-29.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "since red and green light when mixed form yellow",
+      "raw_text": "since red and green light when mixed form yellow",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.125,
+      "transcribe_seconds": 2.388818949000324,
+      "speech_confidence": null,
+      "wav_name": "rp-29.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "since",
+          "red",
+          "and",
+          "green",
+          "light",
+          "when",
+          "mixed",
+          "form",
+          "yellow"
+        ],
+        "hypothesis": [
+          "since",
+          "red",
+          "and",
+          "green",
+          "light",
+          "when",
+          "mixed",
+          "form",
+          "yellow"
+        ],
+        "differences": [
+          "since",
+          "red",
+          "and",
+          "green",
+          "light",
+          "when",
+          "mixed",
+          "form",
+          "yellow"
+        ],
+        "words": 9,
+        "errors": 0,
+        "matches": 9,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "ar-07.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "one rainy day the rats heard a great noise in the loft",
+      "raw_text": "one rainy day the rats heard a great noise in the loft",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.375,
+      "transcribe_seconds": 3.504750882999815,
+      "speech_confidence": null,
+      "wav_name": "ar-07.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "one",
+          "rainy",
+          "day",
+          "the",
+          "rats",
+          "heard",
+          "a",
+          "great",
+          "noise",
+          "in",
+          "the",
+          "loft"
+        ],
+        "hypothesis": [
+          "one",
+          "rainy",
+          "day",
+          "the",
+          "rats",
+          "heard",
+          "a",
+          "great",
+          "noise",
+          "in",
+          "the",
+          "loft"
+        ],
+        "differences": [
+          "one",
+          "rainy",
+          "day",
+          "the",
+          "rats",
+          "heard",
+          "a",
+          "great",
+          "noise",
+          "in",
+          "the",
+          "loft"
+        ],
+        "words": 12,
+        "errors": 0,
+        "matches": 12,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "en-0532.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "this will be discussed with industry",
+      "raw_text": "this will be discussed with industry",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.625,
+      "transcribe_seconds": 3.31204211999966,
+      "speech_confidence": null,
+      "wav_name": "en-0532.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "this",
+          "will",
+          "be",
+          "discussed",
+          "with",
+          "industry"
+        ],
+        "hypothesis": [
+          "this",
+          "will",
+          "be",
+          "discussed",
+          "with",
+          "industry"
+        ],
+        "differences": [
+          "this",
+          "will",
+          "be",
+          "discussed",
+          "with",
+          "industry"
+        ],
+        "words": 6,
+        "errors": 0,
+        "matches": 6,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "en-0540.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "the commission and who has not come out in favor of ice caps",
+      "raw_text": "the commission and who has not come out in favor of ice caps",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.5,
+      "transcribe_seconds": 4.100444548000269,
+      "speech_confidence": null,
+      "wav_name": "en-0540.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "the",
+          "commissioner",
+          "who",
+          "has",
+          "not",
+          "come",
+          "out",
+          "in",
+          "favor",
+          "of",
+          "price",
+          "caps"
+        ],
+        "hypothesis": [
+          "the",
+          "commission",
+          "and",
+          "who",
+          "has",
+          "not",
+          "come",
+          "out",
+          "in",
+          "favor",
+          "of",
+          "ice",
+          "caps"
+        ],
+        "differences": [
+          "the",
+          "+commission",
+          "commissioner:and",
+          "who",
+          "has",
+          "not",
+          "come",
+          "out",
+          "in",
+          "favor",
+          "of",
+          "price:ice",
+          "caps"
+        ],
+        "words": 12,
+        "errors": 3,
+        "matches": 10,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.25
+      }
+    },
+    "ar-05.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "now look here no one is going to care for you if you carry on like this",
+      "raw_text": "now look here no one is going to care for you if you carry on like this",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.625,
+      "transcribe_seconds": 2.8635423869995975,
+      "speech_confidence": null,
+      "wav_name": "ar-05.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "now",
+          "look",
+          "here",
+          "no",
+          "one",
+          "is",
+          "going",
+          "to",
+          "care",
+          "for",
+          "you",
+          "if",
+          "you",
+          "carry",
+          "on",
+          "like",
+          "this"
+        ],
+        "hypothesis": [
+          "now",
+          "look",
+          "here",
+          "no",
+          "one",
+          "is",
+          "going",
+          "to",
+          "care",
+          "for",
+          "you",
+          "if",
+          "you",
+          "carry",
+          "on",
+          "like",
+          "this"
+        ],
+        "differences": [
+          "now",
+          "look",
+          "here",
+          "no",
+          "one",
+          "is",
+          "going",
+          "to",
+          "care",
+          "for",
+          "you",
+          "if",
+          "you",
+          "carry",
+          "on",
+          "like",
+          "this"
+        ],
+        "words": 17,
+        "errors": 0,
+        "matches": 17,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "en-0536.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "attach please find its fact she",
+      "raw_text": "attach please find its fact she",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4,
+      "transcribe_seconds": 2.792171698999937,
+      "speech_confidence": null,
+      "wav_name": "en-0536.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "attached",
+          "please",
+          "find",
+          "the",
+          "spreadsheet"
+        ],
+        "hypothesis": [
+          "attach",
+          "please",
+          "find",
+          "its",
+          "fact",
+          "she"
+        ],
+        "differences": [
+          "attached:attach",
+          "please",
+          "find",
+          "+its",
+          "the:fact",
+          "spreadsheet:she"
+        ],
+        "words": 5,
+        "errors": 4,
+        "matches": 2,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.8
       }
     }
   },
-  "expected": {
-    "en-0539.wav": {
-      "text": "the format inception document this week for signature"
-    },
-    "ar-04.wav": {
-      "text": "he would always shirk making a choice his aunt helen said to him"
-    },
-    "en-0541.wav": {
-      "text": "nevertheless indicated she might be inching toward some controls"
-    },
-    "ar-07.wav": {
-      "text": "one rainy day the rats heard a great noise in the loft"
-    },
-    "ar-06.wav": {
-      "text": "you have no more mind than a blade of grass"
-    },
-    "en-0535.wav": {
-      "text": "so that he is in with children from a variety of cultural backgrounds"
-    },
-    "en-0532.wav": {
-      "text": "this will be discussed with industry"
-    },
-    "rp-29.wav": {
-      "text": "since red and green light when mixed form yellow"
-    },
-    "en-0536.wav": {
-      "text": "attached please find the spreadsheet"
-    },
-    "rp-31.wav": {
-      "text": "with little or no green or blue"
-    },
-    "rp-30.wav": {
-      "text": "this is a very common type of bow one showing mainly red and yellow"
-    },
-    "en-0533.wav": {
-      "text": "through a series of informal outreach sessions over the next few months"
-    },
-    "en-0534.wav": {
-      "text": "here the classes are total immersion"
-    },
-    "en-0540.wav": {
-      "text": "the commissioner who has not come out in favor of price caps"
-    },
-    "ar-05.wav": {
-      "text": "now look here no one is going to care for you if you carry on like this"
-    },
-    "en-0537.wav": {
-      "text": "containing the above referenced information"
-    },
-    "ar-02.wav": {
-      "text": "whenever his friends asked him if he would like to go out with them"
-    },
-    "ar-03.wav": {
-      "text": "he would only answer i don't know he wouldn't say yes or no either"
-    },
-    "en-0538.wav": {
-      "text": "please could we pull together"
-    },
-    "ar-01.wav": {
-      "text": "once there was a young rat named arthur who never could make up his mind"
-    }
-  }
+  "num_wavs": 20,
+  "num_words": 206,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 6,
+  "correct_intent_names": 0,
+  "correct_words": 167,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.8106796116504854,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 1.1942105642742438
 }
