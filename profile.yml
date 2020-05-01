@@ -18,4 +18,5 @@ training:
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
     - !env "${profile_dir}/base_language_model.txt"
+    - !env "${profile_dir}/base_language_model.fst"
     - !env "${profile_dir}/g2p.fst"
