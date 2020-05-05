@@ -1,4 +1,5 @@
 ---
+name: "en-us_pocketsphinx-cmu"
 version: 1.1
 
 language:
