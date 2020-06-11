@@ -65,8 +65,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   "espeak_phonemes.txt":
-    bytes: 189
-    sha256: 43b1a6cc93f038ba92a5b40da10041350551bccf160eb900552756cd5990f2e4
+    bytes: 188
+    sha256: 36ffa62bdc7b4b35db5839befd8629bedfddda89b3f7146246b41cb1a18a72a7
   "marytts_phonemes.txt":
     bytes: 187
     sha256: ddf040f81c9048ae7e2c193ef19bf38c4562ff3bc4d9612fc6ed47d0bf47dedf

@@ -15,7 +15,7 @@ F f
 G g
 HH h
 IH I
-IY i:
+IY i
 JH dZ
 K k
 L l
