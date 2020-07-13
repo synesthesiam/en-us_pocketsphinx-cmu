@@ -1,6 +1,6 @@
 ---
 name: "en-us_pocketsphinx-cmu"
-version: 1.1
+version: 1.2
 
 language:
   name: "english"
@@ -24,3 +24,4 @@ training:
     - !env "${profile_dir}/base_language_model.txt"
     - !env "${profile_dir}/base_language_model.fst"
     - !env "${profile_dir}/g2p.fst"
+    - !env "${profile_dir}/g2p.corpus.gz"
